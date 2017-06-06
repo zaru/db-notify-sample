@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "redis": "^2.7.1"
+    "redis": "^2.7.1",
+    "rethinkdb": "^2.3.3"
   },
   "devDependencies": {},
   "scripts": {

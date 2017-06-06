@@ -15,3 +15,8 @@ services:
     tty: true
     ports:
       - 6379:6379
+  rethinkdb:
+    build: ./containers/rethinkdb
+    tty: true
+    ports:
+      - 8080:8080
